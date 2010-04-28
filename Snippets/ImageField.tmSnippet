@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:image} = models.ImageField(${2:blank=True, }upload_to="${4:uploads/${3:MODELNAME}/%Y/%m/%d}"${5:, height_field=$6}${7:, width_field=$8})
+$0</string>
+	<key>name</key>
+	<string>ImageField</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>image</string>
+	<key>uuid</key>
+	<string>1E86DFE2-D890-4A4C-B24B-097C3FCC1958</string>
+</dict>
+</plist>

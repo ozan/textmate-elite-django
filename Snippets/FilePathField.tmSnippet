@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:FIELDNAME} = models.FilePathField(${2:blank=True, }path="${3:/location/of/choices}"${5:, match="${4:foo.*}"}${6:, recursive=True})
+$0</string>
+	<key>name</key>
+	<string>FilePathField</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>filepath</string>
+	<key>uuid</key>
+	<string>D12EF2FC-08DC-448C-AA84-9A52DC9C31B6</string>
+</dict>
+</plist>

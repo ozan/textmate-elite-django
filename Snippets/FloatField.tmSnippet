@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:FIELDNAME} = models.FloatField(${2:blank=True, null=True})
+$0</string>
+	<key>name</key>
+	<string>FloatField</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>float</string>
+	<key>uuid</key>
+	<string>459BFB4D-56FD-4155-8A2C-1BA8748837B7</string>
+</dict>
+</plist>

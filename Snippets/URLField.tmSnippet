@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:url} = models.URLField(${2:blank=True}${3:, verify_exists=True})
+$0</string>
+	<key>name</key>
+	<string>URLField</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>url</string>
+	<key>uuid</key>
+	<string>A1716FC9-E3D9-4877-BE39-5D6F0692ECE3</string>
+</dict>
+</plist>

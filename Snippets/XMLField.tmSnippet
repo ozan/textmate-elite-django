@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:xml} = models.XMLField(${2:blank=True, }schema_path='${3:/path/to/RelaxNG}')</string>
+	<key>name</key>
+	<string>XMLField</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>xml</string>
+	<key>uuid</key>
+	<string>21911A2E-1E10-4F75-AC64-C5573B456AD9</string>
+</dict>
+</plist>

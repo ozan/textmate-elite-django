@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:FIELDNAME} = models.BigIntegerField(${2:blank=True, null=True})
+$0</string>
+	<key>name</key>
+	<string>BigIntegerField</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>bigint</string>
+	<key>uuid</key>
+	<string>C03AC0A3-34CF-4C7B-A588-60FD0F0CA759</string>
+</dict>
+</plist>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:FIELDNAME} = models.CommaSeparatedIntegerField(${2:blank=True, }max_length=${3:80})
+$0</string>
+	<key>name</key>
+	<string>CommaSeparatedIntegerField</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>csi</string>
+	<key>uuid</key>
+	<string>5C23CFC5-9077-42D3-8BDA-56A0551B5DE6</string>
+</dict>
+</plist>

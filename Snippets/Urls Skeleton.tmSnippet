@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>from django.conf import settings
+from django.conf.urls.defaults import *
+
+from views import $1
+
+urlpatterns = patterns('',
+    url(r'^$1/\$', $1, name='${3:myapp}_$1'),
+)</string>
+	<key>name</key>
+	<string>Urls Skeleton</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>urls</string>
+	<key>uuid</key>
+	<string>809DC7BE-08B9-4098-8C8F-CE95A1A6A6AF</string>
+</dict>
+</plist>

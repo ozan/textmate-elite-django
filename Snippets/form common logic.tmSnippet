@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>form = ${1:Foo}Form(request.POST or None)
+if form.is_valid():
+    ${2:form.save()}
+    return redirect(${3:'.'})</string>
+	<key>name</key>
+	<string>form common logic</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>form=</string>
+	<key>uuid</key>
+	<string>FF22EFE7-976E-49A1-8CC6-9E92A6406DBB</string>
+</dict>
+</plist>

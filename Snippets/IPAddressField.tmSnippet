@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:FIELDNAME} = models.IPAddressField(${2:blank=True})
+$0</string>
+	<key>name</key>
+	<string>IPAddressField</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>ip</string>
+	<key>uuid</key>
+	<string>CFB81ADE-FC85-47FE-BB53-CA752CD23D51</string>
+</dict>
+</plist>

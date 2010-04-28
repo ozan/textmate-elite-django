@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>def $1(request):
+    $0
+
+    return render_to_response(${3:'${2:APP_NAME}/$1.html'}, {
+
+    }, context_instance=RequestContext(request))</string>
+	<key>name</key>
+	<string>View Skeleton</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>view</string>
+	<key>uuid</key>
+	<string>48F7BD16-71E3-4216-81C2-58F737226133</string>
+</dict>
+</plist>

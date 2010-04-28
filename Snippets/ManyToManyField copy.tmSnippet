@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:FIELDNAME} = models.ManyToManyField(${2:${1/FIELDNAME|(^|_)([a-zA-Z]+)/(?1:\u$2:RELATED_MODEL)/g}}${4:, related_name='${3:RELATED_NAME}'})
+$0</string>
+	<key>name</key>
+	<string>ManyToManyField</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>m2m</string>
+	<key>uuid</key>
+	<string>FA64D4FB-084A-4555-8CFE-D02C4C17C867</string>
+</dict>
+</plist>

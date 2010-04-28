@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:FIELDNAME} = models.ForeignKey(${2:${1/FIELDNAME|(^|_)([a-zA-Z]+)/(?1:\u$2:RELATED_MODEL)/g}}${3:, blank=True, null=True}${5:, related_name='${4:RELATED_NAME}'})
+$0</string>
+	<key>name</key>
+	<string>ForeignKey</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>fk</string>
+	<key>uuid</key>
+	<string>A08E3CE3-CBEB-4AD9-B656-4C99386EB7EA</string>
+</dict>
+</plist>

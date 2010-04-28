@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:FIELDNAME} = models.IntegerField(${2:blank=True, null=True})
+$0</string>
+	<key>name</key>
+	<string>IntegerField</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>integer</string>
+	<key>uuid</key>
+	<string>0C81E696-D8C8-47BB-9B65-4A83DCFB60B1</string>
+</dict>
+</plist>
