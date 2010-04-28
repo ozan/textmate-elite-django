@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:FIELDNAME} = models.AutoField()
+	<string>${1:FIELDNAME} = models.AutoField(primary_key=True)
 $0</string>
 	<key>name</key>
 	<string>AutoField</string>
