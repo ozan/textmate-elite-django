@@ -5,14 +5,10 @@
 	<key>beforeRunningCommand</key>
 	<string>nop</string>
 	<key>command</key>
-	<string>if [ $TM_SELECTED_TEXT]
-then
-	open "http://code.djangoproject.com/browser/django/trunk/$TM_SELECTED_TEXT.py"
-else
-	open "http://www.google.com/search?as_q=$TM_CURRENT_WORD&amp;as_sitesearch=docs.djangoproject.com/"
-fi</string>
+	<string>open "http://code.djangoproject.com/browser/django/trunk/${TM_SELECTED_TEXT//\.//}.py"
+</string>
 	<key>input</key>
-	<string>none</string>
+	<string>selection</string>
 	<key>keyEquivalent</key>
 	<string>@b</string>
 	<key>name</key>

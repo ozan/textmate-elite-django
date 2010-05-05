@@ -12,7 +12,7 @@ else
 	open "http://www.google.com/search?as_q=$TM_CURRENT_WORD&amp;as_sitesearch=docs.djangoproject.com/"
 fi</string>
 	<key>input</key>
-	<string>none</string>
+	<string>selection</string>
 	<key>keyEquivalent</key>
 	<string>^h</string>
 	<key>name</key>
