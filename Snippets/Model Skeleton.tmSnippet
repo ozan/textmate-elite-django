@@ -13,10 +13,10 @@
         pass
 
     def __unicode__(self):
-        raise ${4:NotImplementedError}
+        ${4:raise NotImplementedError}
 
     def get_absolute_url(self):
-        raise ${5:NotImplementedError}
+        ${5:raise NotImplementedError}
 </string>
 	<key>name</key>
 	<string>Model Skeleton</string>
